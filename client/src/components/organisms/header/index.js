@@ -8,9 +8,13 @@ const MyHeader = () => {
   return (
     <>
       <Divider type="vertical" />
-      <Text strong type="secondary">
-        candle shop
-      </Text>
+      <div className="container" style={{ display: "flex" }}>
+        <div className="logo">로고</div>
+
+        <Text strong type="secondary">
+          candle shop
+        </Text>
+      </div>
     </>
   );
 };
